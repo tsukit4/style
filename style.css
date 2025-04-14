@@ -1,0 +1,29 @@
+p {
+
+    background-color: rgba(179, 2, 2, 0.767);
+
+    color: rgb(0, 0, 0);
+
+}
+
+ 
+
+div {
+
+    border: rgb(159, 0, 93) 10px solid;
+
+}
+.texto{
+    font-size: 50px;
+    text-align: center;
+}
+
+section p{
+    background-color: rgb(159, 0, 93) 10px splod;
+}
+#cabecalho {
+    background-color: blueviolet;
+    font-size: 100px;
+    width: 500px;
+}
+
