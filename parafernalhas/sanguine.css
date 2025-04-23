@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+ 
+body{
+ 
+    font-family: "UnifrakturMaguntia", cursive;
+    font-weight: 400;
+    font-style: normal;
+ }
+ 
+ p {
+    font-size: 20px;  /*tamanho da fontes*/
+    text-align: center; /*centralizando o texto*/
+    /*font-weight: bold; /*fontes em negrito*/
+ 
+    border: solid blue 5px;
+    background-color: aqua;
+    padding: 20px 25px; /*espaçamento interno*/
+   /* padding-right: 50px;*/
+   margin: 40px 40px;}

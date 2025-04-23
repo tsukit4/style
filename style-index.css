@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(130, 125, 130);
+} 
+
+.container{
+    display: flex;
+    background-color: #ffffff;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.item1{
+    background-color: #ff6b6b; 
+    margin: 10px;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.item2{
+    background-color: #4ecdc4; 
+    margin: 10px;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+
+.item3{
+    background-color: #556270; 
+    margin: 10px;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+
+
+
