@@ -1,0 +1,39 @@
+body{
+    background-image: url('https://wallpaperaccess.com/full/10590918.jpg');
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    
+}
+
+.item{
+    background-color: rgb(69, 67, 68); 
+    margin: 10px;
+    padding: 50px;
+    border-radius: 60px;
+}
+
+
+body{
+        background-color: rgb(162, 17, 224);
+    }
+    
+    .container2{
+        display: flex;
+        justify-content: center;
+        border-radius: 20px;
+        
+    }
+    
+    .item{
+        background-color: rgb(105, 0, 91); 
+        margin: 10px;
+        padding: 50px;
+        border-radius: 60px;
+    }
+
+    
