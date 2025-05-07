@@ -1,42 +1,43 @@
-body{
+body {
     margin: 0;
     padding: 0%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
+header {
     display: flex;
     justify-content: center;
     height: 100px;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: space-between;
     width: 990px;
-    
-    
+
+
 }
 
-.logo{
-    
+.logo {
+
     display: flex;
     align-items: center;
 }
 
-.menu{
+.menu {
     display: flex;
     align-items: center;
 }
 
-nav ul, nav li{
+nav ul,
+nav li {
 
     list-style-type: none;
     margin: 0%;
     padding: 0%;
 }
 
-nav ul{
+nav ul {
     display: flex;
 }
 
@@ -46,14 +47,15 @@ nav a {
     color: rgb(0, 0, 0);
 }
 
-nav .active a, nav a:hover{
-background-color: rgb(9, 162, 209);
-color: rgb(0, 0, 0);
-transition-duration: 0.5s;
+nav .active a,
+nav a:hover {
+    background-color: rgb(9, 162, 209);
+    color: rgb(0, 0, 0);
+    transition-duration: 0.5s;
 }
 
-#banner{
-    background-image:url('../images/entulhos/img1.jpeg');
+#banner {
+    background-image: url('../images/entulhos/img1.jpeg');
     background-position: center;
     background-size: cover;
     height: 770px;
@@ -61,72 +63,74 @@ transition-duration: 0.5s;
     justify-content: center;
 }
 
-.column{
+.column {
     flex-direction: column;
 }
 
-.banner_headline{
-    flex:1;
+.banner_headline {
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    }
-
-.banner_options{
-    height: 210px;
-    display: flex;
-    
 }
 
-.banner_headline h1{
+.banner_options {
+    height: 210px;
+    display: flex;
+
+}
+
+.banner_headline h1 {
     color: rgb(0, 79, 110);
     font-size: 70px;
     text-shadow: opx 1px 0px #555;
     margin: 0;
-    padding:0;
+    padding: 0;
     max-width: 350px;
 }
 
-.banner_headline h2{
+.banner_headline h2 {
     color: rgb(0, 75, 119);
     font-size: 37px;
     text-shadow: opx 1px 0px #555;
     margin: 0;
-    padding:0;
+    padding: 0;
     max-width: 350px;
 }
 
-.banner1, .banner2, .banner3{
-    flex:1;
+.banner1,
+.banner2,
+.banner3 {
+    flex: 1;
     color: rgb(255, 255, 255);
     padding: 20px;
-    font-size:medium;
+    font-size: medium;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.banner1{
+.banner1 {
     background-color: rgb(0, 120, 189);
 }
 
-.banner2{
-    background-color: rgb(73, 73, 75);
-}
-
-.banner3{
+.banner2 {
     background-color: rgb(1, 1, 151);
 }
 
-.banner_title{
+.banner3 {
+    background-color: rgb(25, 25, 110);
+}
+
+.banner_title {
     font-size: 12px;
 }
 
-.banner_desc{
+.banner_desc {
     font-size: 12px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.banner_options a{
+.banner_options a {
     border: 1px solid #FFF;
     padding: 5PX;
     color: #FFF;
@@ -134,36 +138,71 @@ transition-duration: 0.5s;
     text-decoration: none;
 }
 
-#geral{
+
+#geral {
     display: flex;
     justify-content: center;
 }
 
-.widget_tittle{
+.widget_title {
     margin-top: 30px;
     margin-bottom: 20px;
 }
 
-.widget_tittle_text{
-    color: rgb(0, 0, 0);
+.widget_title_text {
+    color: #000;
     font-size: 21px;
     font-weight: bold;
 }
 
-.widget_tittle_bar{
+.widget_title_bar {
     width: 50px;
     height: 5px;
     background-color: aqua;
     margin-top: 10px;
 }
 
-#rodape{
-  background-color: darkblue;
-  display: flex;
-  justify-content: center;
-  height: 40px;
-  line-height: 40px;
-  color: #ffffff;
-  font-size: 12px;
-  margin-top: 30px;  
+@media (max-width: 800px) {
+    header {
+        height: 70px;
+    }
+ 
+    .logo {
+        margin-bottom: 5px;
+    }
+ 
+    nav ul,
+    nav li {
+        font-size: 0.9em;
+        margin-bottom: 2px;
+    }
+ 
+    nav a {
+        padding: 5px;
+    }
+ 
+    .banner_headline h1 {
+        font-size: 55px;
+        padding: 20px;
+    }
+ 
+    .banner_headline h2 {
+        font-size: 17px;
+    }
+ 
+    .banner_options {
+        height: auto;
+        flex-direction: column;
+    }
+    .containe {
+        flex-direction: column;
+    }
+    #geral {
+        flex-direction: column;
+        padding: 20px;
+    }
+    #rodape{
+        flex-direction: column;
+        padding: 20px;
+    }
 }
