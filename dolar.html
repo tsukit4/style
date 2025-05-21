@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dolar.css">
+</head>
+ 
+<body>
+ 
+    <div class="container">
+ 
+        <div class="title">
+            <h4>Conversor de Dólar pra Real</h4>
+        </div>
+ 
+        <div class="title">Digite o valor em dólar (USD)</div>
+ 
+        <div class="input">
+            <input type="number" id="dolar">
+        </div>
+ 
+        <button onclick="dolar()">Converter</button>
+ 
+        <div id="resultado"></div>
+ 
+    </div>
+ 
+    <script src="dolar.js"></script>
+ 
+    <script>
+       
+        document.getElementById("dolar").addEventListener("keydown", function (event) {
+            if (event.key === "Enter") {
+                dolar();
+            }
+        });
+    </script>
+</body>
+ 
+</html>
+ 
